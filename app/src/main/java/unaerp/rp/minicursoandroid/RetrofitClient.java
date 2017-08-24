@@ -11,7 +11,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 
 public class RetrofitClient {
-    private static final String BASE_URL = "http://ec2-107-21-15-7.compute-1.amazonaws.com:8080/minicurso/";
+    private static final String BASE_URL = "http://172.25.3.30:808/minicurso/";
     private static Retrofit retrofit = null;
 
     public static Retrofit getClient() {
