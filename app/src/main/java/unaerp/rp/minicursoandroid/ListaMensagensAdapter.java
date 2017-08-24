@@ -14,15 +14,40 @@ import java.util.List;
 
 public class ListaMensagensAdapter extends RecyclerView.Adapter<ListaMensagensAdapter.ViewHolder> {
     private List<Mensagem> listaMensagens;
+    private Usuario usuarioAtual;
 
-    public ListaMensagensAdapter(List<Mensagem> listaMensagens){
+    private final int MENSAGEM_ENVIADA = 0;
+    private final int MENSAGEM_RECEBIDA = 1;
+
+    public ListaMensagensAdapter(Usuario usuarioAtual, List<Mensagem> listaMensagens){
         this.listaMensagens = listaMensagens;
+        this.usuarioAtual = usuarioAtual;
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        Mensagem mensagem = listaMensagens.get(position);
+
+        if(mensagem.getNomeUsr().equals(usuarioAtual.getNome())) {
+            return MENSAGEM_ENVIADA;
+        }
+        else {
+            return MENSAGEM_RECEBIDA;
+        }
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).
-                inflate(R.layout.item_lista_mensagens, parent, false);
+        View view;
+
+        switch (viewType){
+            case MENSAGEM_ENVIADA:
+                view = LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_mensagem_enviada, parent, false);
+                break;
+            case MENSAGEM_RECEBIDA: default:
+                view = LayoutInflater.from(parent.getContext()).inflate(R.layout.layout_mensagem_recebida, parent, false);
+                break;
+        }
 
         return new ViewHolder(view);
     }
@@ -35,7 +60,6 @@ public class ListaMensagensAdapter extends RecyclerView.Adapter<ListaMensagensAd
 
         holder.titulo.setText(mensagem.getNomeUsr());
         holder.corpo.setText(mensagem.getCorpo());
-
     }
 
     //Este método retorna o tamanho da lista. Usado para saber, por exemplo, quantas

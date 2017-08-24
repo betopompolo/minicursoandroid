@@ -32,12 +32,12 @@
         "source": "C:\\Users\\Beto\\.android\\build-cache\\9792bfd6cce97639e7522fe1f277b3e7470b5446\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\Beto\\.android\\build-cache\\9792bfd6cce97639e7522fe1f277b3e7470b5446\\output\\res\\layout\\notification_template_media.xml"
+        "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_mensagem_enviada.xml",
+        "source": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\src\\main\\res\\layout\\layout_mensagem_enviada.xml"
     },
     {
-        "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_lista_mensagens.xml",
-        "source": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\src\\main\\res\\layout\\item_lista_mensagens.xml"
+        "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Beto\\.android\\build-cache\\9792bfd6cce97639e7522fe1f277b3e7470b5446\\output\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
@@ -70,6 +70,10 @@
     {
         "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\Beto\\.android\\build-cache\\9792bfd6cce97639e7522fe1f277b3e7470b5446\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\layout_mensagem_recebida.xml",
+        "source": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\src\\main\\res\\layout\\layout_mensagem_recebida.xml"
     },
     {
         "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",

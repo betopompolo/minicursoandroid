@@ -1,4 +1,4 @@
-#Tue Aug 22 21:36:01 BRT 2017
+#Thu Aug 24 10:28:39 BRT 2017
 base.0=C\:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a9b8897ddd105650e0c2d8c92164ec944dd44b10
 renamed.1=classes2.dex
 renamed.0=classes.dex

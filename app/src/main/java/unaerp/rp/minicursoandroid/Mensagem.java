@@ -1,6 +1,5 @@
 package unaerp.rp.minicursoandroid;
 
-import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 /**

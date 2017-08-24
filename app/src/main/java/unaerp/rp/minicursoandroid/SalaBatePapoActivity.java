@@ -8,6 +8,7 @@ import android.util.Log;
 import android.widget.Toast;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
@@ -30,17 +31,32 @@ public class SalaBatePapoActivity extends AppCompatActivity {
 
         criarUsuario();
         configListaMsgs();
+        addMsgs();
+    }
+
+    private void addMsgs() {
+        for (int i = 0; i < 10; i++) {
+            if (i % 3 == 0) {
+                listaMensagem.add(new Mensagem(usuario.getNome(),
+                        "Eae rapazeada",
+                        Calendar.getInstance().getTime().toString()));
+            }
+            else {
+                listaMensagem.add(new Mensagem("Sr. Bugorin", "I s2 Ruby", Calendar.getInstance().getTime().toString()));
+            }
+        }
+        rvListaMensagem.getAdapter().notifyDataSetChanged();
     }
 
     @Override
     protected void onResume() {
         super.onResume();
-        initTimerAtualizarMsg();
+//        initTimerAtualizarMsg();
     }
 
     @Override
     protected void onPause() {
-        timerAtualizarMsg.cancel();
+//        timerAtualizarMsg.cancel();
         super.onPause();
     }
 
@@ -54,32 +70,36 @@ public class SalaBatePapoActivity extends AppCompatActivity {
     private void configListaMsgs() {
         rvListaMensagem = (RecyclerView) findViewById(R.id.rv_lista_mensagem);
         rvListaMensagem.setLayoutManager(new LinearLayoutManager(this));
-        rvListaMensagem.setAdapter(new ListaMensagensAdapter(listaMensagem));
+        rvListaMensagem.setAdapter(new ListaMensagensAdapter(usuario, listaMensagem));
     }
 
-    private void initTimerAtualizarMsg() {
-        timerAtualizarMsg.scheduleAtFixedRate(new TimerTask() {
-            @Override
-            public void run() {
-                //TODO Atualizar RecyclerView de mensagens
-                MensagemService mensagemService = RetrofitClient.getClient().create(MensagemService.class);
-                Call<List<Mensagem>> call = mensagemService.getMensagens();
-                call.enqueue(new Callback<List<Mensagem>>() {
-                    @Override
-                    public void onResponse(Call<List<Mensagem>> call, Response<List<Mensagem>> response) {
-                        if(response.body().size() != 0) {
-                            listaMensagem.clear();
-                            listaMensagem.addAll(response.body());
-                        }
-                        Log.d("teste", "run: atualizou! List size " + response.body().size());
-                    }
-
-                    @Override
-                    public void onFailure(Call<List<Mensagem>> call, Throwable t) {
-                        Log.d("teste", "onFailure: " + t.getMessage());
-                    }
-                });
-            }
-        }, 0, TEMPO_ATUALIZAR_MSG);
-    }
+//    private void initTimerAtualizarMsg() {
+//        timerAtualizarMsg.scheduleAtFixedRate(new TimerTask() {
+//            @Override
+//            public void run() {
+//                //TODO Atualizar RecyclerView de mensagens
+//                MensagemService mensagemService = RetrofitClient.getClient().create(MensagemService.class);
+//                Call<List<Mensagem>> call = mensagemService.getMensagens();
+//                call.enqueue(new Callback<List<Mensagem>>() {
+//                    @Override
+//                    public void onResponse(Call<List<Mensagem>> call, Response<List<Mensagem>> response) {
+//                        try {
+//                            if(response.body().size() > 0) {
+//                                listaMensagem.clear();
+//                                listaMensagem.addAll(response.body());
+//                            }
+//                            Log.d("teste", "onResponse: " + response.body().get(0));
+//                            Log.d("teste", "run: atualizou! List size " + response.body().size());
+//                        } catch (NullPointerException npe) {
+//                            Log.d("teste", "onResponse: response body null");
+//                        }
+//                    }
+//                    @Override
+//                    public void onFailure(Call<List<Mensagem>> call, Throwable t) {
+//                        Log.d("teste", "onFailure: " + t.getMessage());
+//                    }
+//                });
+//            }
+//        }, 0, TEMPO_ATUALIZAR_MSG);
+//    }
 }

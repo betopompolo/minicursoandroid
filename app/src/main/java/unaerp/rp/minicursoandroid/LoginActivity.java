@@ -22,6 +22,9 @@ public class LoginActivity extends AppCompatActivity {
         //Vincular views
         btnLogin = (Button) findViewById(R.id.btn_login);
         txtNomeUsr = (EditText) findViewById(R.id.txt_nome_usr);
+
+        //TODO Remover!
+        txtNomeUsr.setText("Beto");
     }
 
 

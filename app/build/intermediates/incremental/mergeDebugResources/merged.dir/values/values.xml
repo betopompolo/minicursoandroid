@@ -108,6 +108,8 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
+    <color name="bg_mensagem_enviada">#3f51b5</color>
+    <color name="bg_mensagem_recebida">#eeeeee</color>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
     <color name="bright_foreground_inverse_material_dark">@color/bright_foreground_material_light</color>
@@ -378,6 +380,7 @@
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
+    <dimen name="corner_radius_bg_mensagem">7dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
@@ -390,6 +393,7 @@
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_max_velocity">800dp</dimen>
     <dimen name="item_touch_helper_swipe_escape_velocity">120dp</dimen>
+    <dimen name="mensagem_margin">3dp</dimen>
     <dimen name="notification_action_icon_size">32dp</dimen>
     <dimen name="notification_action_text_size">13sp</dimen>
     <dimen name="notification_big_circle_margin">12dp</dimen>
