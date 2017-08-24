@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Minicurso Android</string>
+    <string name="hint_txt_nome_usr">Digite seu nome</string>
+    <string name="txt_btn_login">Entrar</string>
+    <string name="error_txt_nome_usr">Digite seu nome para entrar</string>
+    <string name="erro_atualizar_lst_msg">Não foi possível atualizar as mensagens</string>
+</resources>

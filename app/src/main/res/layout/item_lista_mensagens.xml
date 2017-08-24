@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    <TextView android:id="@+id/titulo_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Nome usuario"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TextView android:id="@+id/texto_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Texto da Mensagem"
+        android:textSize="16dp"/>
+
+    <!--Borda-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:background="#000000" />
+
+</LinearLayout>

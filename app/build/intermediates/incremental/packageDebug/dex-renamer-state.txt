@@ -1,0 +1,7 @@
+#Tue Aug 22 21:36:01 BRT 2017
+base.0=C\:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a9b8897ddd105650e0c2d8c92164ec944dd44b10
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_93e12a1cd6d7bfbcc55851b3ec1430b002a480a4\\classes.dex
+base.1=C\:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_93e12a1cd6d7bfbcc55851b3ec1430b002a480a4
+file.0=C\:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a9b8897ddd105650e0c2d8c92164ec944dd44b10\\classes.dex
