@@ -28,7 +28,7 @@ public class ListaMensagensAdapter extends RecyclerView.Adapter<ListaMensagensAd
     public int getItemViewType(int position) {
         Mensagem mensagem = listaMensagens.get(position);
 
-        if(mensagem.getNomeUsr().equals(usuarioAtual.getNome())) {
+        if(mensagem.getUsuario().equals(usuarioAtual.getNome())) {
             return MENSAGEM_ENVIADA;
         }
         else {
@@ -58,8 +58,8 @@ public class ListaMensagensAdapter extends RecyclerView.Adapter<ListaMensagensAd
     public void onBindViewHolder(ViewHolder holder, int position) {
         Mensagem mensagem = listaMensagens.get(position);
 
-        holder.titulo.setText(mensagem.getNomeUsr());
-        holder.corpo.setText(mensagem.getCorpo());
+        holder.titulo.setText(mensagem.getUsuario());
+        holder.corpo.setText(mensagem.getMensagem());
     }
 
     //Este método retorna o tamanho da lista. Usado para saber, por exemplo, quantas

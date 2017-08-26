@@ -1,36 +1,43 @@
 package unaerp.rp.minicursoandroid;
 
-import com.google.gson.annotations.SerializedName;
-
 /**
  * Created by Beto on 8/11/2017.
  */
 
 public class Mensagem {
-    @SerializedName("name") private String nomeUsr;
-    @SerializedName("menssage") private String corpo;
-    @SerializedName("date") private String data;
+    private int id;
+    private String usuario;
+    private String mensagem;
+    private String data;
 
-    public Mensagem(String nomeUsr, String corpo, String data) {
-        this.nomeUsr = nomeUsr;
-        this.corpo = corpo;
+    public Mensagem(String usuario, String mensagem, String data) {
+        this.usuario = usuario;
+        this.mensagem = mensagem;
         this.data = data;
     }
 
-    public String getNomeUsr() {
-        return nomeUsr;
+    public int getId() {
+        return id;
     }
 
-    public void setNomeUsr(String nomeUsr) {
-        this.nomeUsr = nomeUsr;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public String getCorpo() {
-        return corpo;
+    public String getUsuario() {
+        return usuario;
     }
 
-    public void setCorpo(String corpo) {
-        this.corpo = corpo;
+    public void setUsuario(String usuario) {
+        this.usuario = usuario;
+    }
+
+    public String getMensagem() {
+        return mensagem;
+    }
+
+    public void setMensagem(String mensagem) {
+        this.mensagem = mensagem;
     }
 
     public String getData() {
@@ -43,6 +50,6 @@ public class Mensagem {
 
     @Override
     public String toString() {
-        return "nome: " + nomeUsr + "  mensagem: " + corpo;
+        return "nome: " + usuario + "  mensagem: " + mensagem;
     }
 }

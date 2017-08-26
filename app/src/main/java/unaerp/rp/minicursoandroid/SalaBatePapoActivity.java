@@ -22,6 +22,7 @@ public class SalaBatePapoActivity extends AppCompatActivity {
     private List<Mensagem> listaMensagem = new ArrayList<>();
     private Timer timerAtualizarMsg = new Timer();
     private final int TEMPO_ATUALIZAR_MSG = 3000; //Tempo em milissegundos
+    private int ultimaMsg = -1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -83,13 +84,17 @@ public class SalaBatePapoActivity extends AppCompatActivity {
                     @Override
                     public void onResponse(Call<List<Mensagem>> call, Response<List<Mensagem>> response) {
                         try {
-                            if(response.body().size() > 0) {
+                            int qtdeMsg = response.body().size();
+                            if(qtdeMsg > 0 && ultimaMsg != response.body().get(qtdeMsg-1).getId()) {
                                 listaMensagem.clear();
                                 listaMensagem.addAll(response.body());
                                 rvListaMensagem.getAdapter().notifyDataSetChanged();
+                                rvListaMensagem.smoothScrollToPosition(listaMensagem.size()-1);
+                                ultimaMsg = response.body().get(qtdeMsg-1).getId();
                             }
-                            Log.d("teste", "onResponse: " + response.body().get(0));
-                            Log.d("teste", "run: atualizou! List size " + response.body().size());
+                            else {
+                                Log.d("teste", "onResponse: não entra no if");
+                            }
                         } catch (NullPointerException npe) {
                             Log.d("teste", "onResponse: response body null");
                         }
