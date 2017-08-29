@@ -28,6 +28,10 @@
         "source": "C:\\Users\\Beto\\.android\\build-cache\\9792bfd6cce97639e7522fe1f277b3e7470b5446\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
+        "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\Beto\\.android\\build-cache\\69b56728db170c10ce3763c27f9644edba026847\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
         "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\Beto\\.android\\build-cache\\9792bfd6cce97639e7522fe1f277b3e7470b5446\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
@@ -132,6 +136,10 @@
         "source": "C:\\Users\\Beto\\.android\\build-cache\\9792bfd6cce97639e7522fe1f277b3e7470b5446\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
+        "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\Beto\\.android\\build-cache\\69b56728db170c10ce3763c27f9644edba026847\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
         "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "C:\\Users\\Beto\\.android\\build-cache\\9792bfd6cce97639e7522fe1f277b3e7470b5446\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
@@ -142,6 +150,10 @@
     {
         "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "C:\\Users\\Beto\\.android\\build-cache\\9792bfd6cce97639e7522fe1f277b3e7470b5446\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\Beto\\.android\\build-cache\\69b56728db170c10ce3763c27f9644edba026847\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
         "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",

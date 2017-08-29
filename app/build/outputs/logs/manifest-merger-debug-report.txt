@@ -14,22 +14,24 @@ ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\And
 		INJECTED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml:5:5-66
+ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml:5:5-67
 	android:name
 		ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml:5:22-64
 application
 ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml:7:5-22:19
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Beto\.android\build-cache\65d717f333567133055cc216bc5d3bd5e16a586a\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Beto\.android\build-cache\fd6f7cf9285b10cb490441a39b2b3e439c493c4e\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Beto\.android\build-cache\69b56728db170c10ce3763c27f9644edba026847\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Beto\.android\build-cache\9792bfd6cce97639e7522fe1f277b3e7470b5446\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Beto\.android\build-cache\1b53ac831b18408ba85795e342b4d9773ed44406\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Beto\.android\build-cache\955c9f9171685245ea989ead7fc65badb9f877d0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Beto\.android\build-cache\9fbbe64e66e5fc3db5efb617a729f99ccf437f02\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Beto\.android\build-cache\f35cf7fb7dc9e7b6f9a7031a2ba52b5c23f698c4\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Beto\.android\build-cache\db0ffce141c676f13463d767a04fb1982c55f380\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Beto\.android\build-cache\755fffb7d1c64cc087e9f04b93aea476a7e7bc2e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Beto\.android\build-cache\516a74893b3999849bf472b1332e4fbd6e14ea70\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Beto\.android\build-cache\1b53ac831b18408ba85795e342b4d9773ed44406\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Beto\.android\build-cache\955c9f9171685245ea989ead7fc65badb9f877d0\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Beto\.android\build-cache\65d717f333567133055cc216bc5d3bd5e16a586a\output\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Beto\.android\build-cache\2f55571bfe6d2023328c313f166c098181899537\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Beto\.android\build-cache\516a74893b3999849bf472b1332e4fbd6e14ea70\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Beto\.android\build-cache\1279eabada9416bfc669b0cf9d5260c4e1a5587b\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Beto\.android\build-cache\fd6f7cf9285b10cb490441a39b2b3e439c493c4e\output\AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml:10:9-41
 	android:supportsRtl
@@ -57,25 +59,27 @@ ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\And
 	android:name
 		ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml:18:27-74
 activity#unaerp.rp.minicursoandroid.SalaBatePapoActivity
-ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml:21:9-67
+ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml:21:9-58
 	android:name
 		ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml:21:19-55
 uses-sdk
 INJECTED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Beto\.android\build-cache\65d717f333567133055cc216bc5d3bd5e16a586a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Beto\.android\build-cache\fd6f7cf9285b10cb490441a39b2b3e439c493c4e\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Beto\.android\build-cache\69b56728db170c10ce3763c27f9644edba026847\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Beto\.android\build-cache\9792bfd6cce97639e7522fe1f277b3e7470b5446\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Beto\.android\build-cache\1b53ac831b18408ba85795e342b4d9773ed44406\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Beto\.android\build-cache\955c9f9171685245ea989ead7fc65badb9f877d0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Beto\.android\build-cache\2de95306019e3b0da780d89f7c6bcb5b2b5b0cdc\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Beto\.android\build-cache\9fbbe64e66e5fc3db5efb617a729f99ccf437f02\output\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Beto\.android\build-cache\f35cf7fb7dc9e7b6f9a7031a2ba52b5c23f698c4\output\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Beto\.android\build-cache\db0ffce141c676f13463d767a04fb1982c55f380\output\AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Beto\.android\build-cache\755fffb7d1c64cc087e9f04b93aea476a7e7bc2e\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Beto\.android\build-cache\516a74893b3999849bf472b1332e4fbd6e14ea70\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Beto\.android\build-cache\1b53ac831b18408ba85795e342b4d9773ed44406\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Beto\.android\build-cache\955c9f9171685245ea989ead7fc65badb9f877d0\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Beto\.android\build-cache\65d717f333567133055cc216bc5d3bd5e16a586a\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Beto\.android\build-cache\2de95306019e3b0da780d89f7c6bcb5b2b5b0cdc\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Beto\.android\build-cache\2f55571bfe6d2023328c313f166c098181899537\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Beto\.android\build-cache\516a74893b3999849bf472b1332e4fbd6e14ea70\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Beto\.android\build-cache\1279eabada9416bfc669b0cf9d5260c4e1a5587b\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Beto\.android\build-cache\fd6f7cf9285b10cb490441a39b2b3e439c493c4e\output\AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Beto\.android\build-cache\9792bfd6cce97639e7522fe1f277b3e7470b5446\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Beto\.android\build-cache\69b56728db170c10ce3763c27f9644edba026847\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml
@@ -83,18 +87,20 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Be
 		INJECTED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Beto\.android\build-cache\9792bfd6cce97639e7522fe1f277b3e7470b5446\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\Beto\.android\build-cache\65d717f333567133055cc216bc5d3bd5e16a586a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] C:\Users\Beto\.android\build-cache\69b56728db170c10ce3763c27f9644edba026847\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Beto\.android\build-cache\9792bfd6cce97639e7522fe1f277b3e7470b5446\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Beto\.android\build-cache\1b53ac831b18408ba85795e342b4d9773ed44406\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Beto\.android\build-cache\955c9f9171685245ea989ead7fc65badb9f877d0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Beto\.android\build-cache\2de95306019e3b0da780d89f7c6bcb5b2b5b0cdc\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Beto\.android\build-cache\9fbbe64e66e5fc3db5efb617a729f99ccf437f02\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Beto\.android\build-cache\f35cf7fb7dc9e7b6f9a7031a2ba52b5c23f698c4\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Beto\.android\build-cache\db0ffce141c676f13463d767a04fb1982c55f380\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Beto\.android\build-cache\755fffb7d1c64cc087e9f04b93aea476a7e7bc2e\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Beto\.android\build-cache\516a74893b3999849bf472b1332e4fbd6e14ea70\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Beto\.android\build-cache\1b53ac831b18408ba85795e342b4d9773ed44406\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Beto\.android\build-cache\955c9f9171685245ea989ead7fc65badb9f877d0\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Beto\.android\build-cache\65d717f333567133055cc216bc5d3bd5e16a586a\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Beto\.android\build-cache\2de95306019e3b0da780d89f7c6bcb5b2b5b0cdc\output\AndroidManifest.xml:22:5-24:34
 MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Beto\.android\build-cache\2f55571bfe6d2023328c313f166c098181899537\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Beto\.android\build-cache\516a74893b3999849bf472b1332e4fbd6e14ea70\output\AndroidManifest.xml:25:5-27:34
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Beto\.android\build-cache\1279eabada9416bfc669b0cf9d5260c4e1a5587b\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Beto\.android\build-cache\9792bfd6cce97639e7522fe1f277b3e7470b5446\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\Beto\.android\build-cache\65d717f333567133055cc216bc5d3bd5e16a586a\output\AndroidManifest.xml:24:9-31
 	android:name
-		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Beto\.android\build-cache\9792bfd6cce97639e7522fe1f277b3e7470b5446\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\Beto\.android\build-cache\65d717f333567133055cc216bc5d3bd5e16a586a\output\AndroidManifest.xml:23:9-47

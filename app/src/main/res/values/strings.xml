@@ -4,4 +4,5 @@
     <string name="txt_btn_login">Entrar</string>
     <string name="error_txt_nome_usr">Digite seu nome para entrar</string>
     <string name="erro_atualizar_lst_msg">Não foi possível atualizar as mensagens</string>
+    <string name="title_activity_sala_bate_papo2">SalaBatePapo2Activity</string>
 </resources>

@@ -1,11 +1,27 @@
 [
     {
+        "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\Beto\\.android\\build-cache\\69b56728db170c10ce3763c27f9644edba026847\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
         "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
         "source": "C:\\Users\\Beto\\.android\\build-cache\\9792bfd6cce97639e7522fe1f277b3e7470b5446\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
         "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
         "source": "C:\\Users\\Beto\\.android\\build-cache\\9792bfd6cce97639e7522fe1f277b3e7470b5446\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\Beto\\.android\\build-cache\\69b56728db170c10ce3763c27f9644edba026847\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\Beto\\.android\\build-cache\\69b56728db170c10ce3763c27f9644edba026847\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\Beto\\.android\\build-cache\\69b56728db170c10ce3763c27f9644edba026847\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
         "merged": "C:\\Users\\Beto\\AndroidStudioProjects\\MinicursoAndroid\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",

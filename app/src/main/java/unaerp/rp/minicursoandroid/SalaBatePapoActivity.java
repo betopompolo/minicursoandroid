@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.Log;
+import android.view.View;
+import android.widget.EditText;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -20,7 +22,8 @@ public class SalaBatePapoActivity extends AppCompatActivity {
     private Usuario usuario;
     private RecyclerView rvListaMensagem;
     private List<Mensagem> listaMensagem = new ArrayList<>();
-    private Timer timerAtualizarMsg = new Timer();
+    private EditText txtMensagem;
+    private Timer timerAtualizarMsg;
     private final int TEMPO_ATUALIZAR_MSG = 3000; //Tempo em milissegundos
     private int ultimaMsg = -1;
 
@@ -31,6 +34,8 @@ public class SalaBatePapoActivity extends AppCompatActivity {
 
         criarUsuario();
         configListaMsgs();
+
+        txtMensagem = (EditText) findViewById(R.id.txtMensagem);
 //        addMsgs();
     }
 
@@ -38,11 +43,10 @@ public class SalaBatePapoActivity extends AppCompatActivity {
         for (int i = 0; i < 10; i++) {
             if (i % 3 == 0) {
                 listaMensagem.add(new Mensagem(usuario.getNome(),
-                        "Eae rapazeada",
-                        Calendar.getInstance().getTime().toString()));
+                        "Eae rapazeada"));
             }
             else {
-                listaMensagem.add(new Mensagem("Sr. Bugorin", "I s2 Ruby", Calendar.getInstance().getTime().toString()));
+                listaMensagem.add(new Mensagem("Sr. Bugorin", "I s2 Ruby"));
             }
         }
         rvListaMensagem.getAdapter().notifyDataSetChanged();
@@ -74,37 +78,17 @@ public class SalaBatePapoActivity extends AppCompatActivity {
     }
 
     private void initTimerAtualizarMsg() {
+        timerAtualizarMsg = new Timer();
         timerAtualizarMsg.scheduleAtFixedRate(new TimerTask() {
             @Override
             public void run() {
-                //TODO Atualizar RecyclerView de mensagens
-                MensagemService mensagemService = RetrofitClient.getClient().create(MensagemService.class);
-                Call<List<Mensagem>> call = mensagemService.getMensagens();
-                call.enqueue(new Callback<List<Mensagem>>() {
-                    @Override
-                    public void onResponse(Call<List<Mensagem>> call, Response<List<Mensagem>> response) {
-                        try {
-                            int qtdeMsg = response.body().size();
-                            if(qtdeMsg > 0 && ultimaMsg != response.body().get(qtdeMsg-1).getId()) {
-                                listaMensagem.clear();
-                                listaMensagem.addAll(response.body());
-                                rvListaMensagem.getAdapter().notifyDataSetChanged();
-                                rvListaMensagem.smoothScrollToPosition(listaMensagem.size()-1);
-                                ultimaMsg = response.body().get(qtdeMsg-1).getId();
-                            }
-                            else {
-                                Log.d("teste", "onResponse: não entra no if");
-                            }
-                        } catch (NullPointerException npe) {
-                            Log.d("teste", "onResponse: response body null");
-                        }
-                    }
-                    @Override
-                    public void onFailure(Call<List<Mensagem>> call, Throwable t) {
-                        Log.d("teste", "onFailure: " + t.getMessage());
-                    }
-                });
+                ServiceController.getMessagesFromService(rvListaMensagem, listaMensagem);
             }
         }, 0, TEMPO_ATUALIZAR_MSG);
+    }
+
+    public void onBtnEnviarClick(View view) {
+        ServiceController.sendMessage(new Mensagem(usuario.getNome(), txtMensagem.getText().toString()));
+        txtMensagem.setText("");
     }
 }
