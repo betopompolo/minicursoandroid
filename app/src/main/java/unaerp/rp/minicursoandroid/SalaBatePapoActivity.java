@@ -24,8 +24,7 @@ public class SalaBatePapoActivity extends AppCompatActivity {
     private List<Mensagem> listaMensagem = new ArrayList<>();
     private EditText txtMensagem;
     private Timer timerAtualizarMsg;
-    private final int TEMPO_ATUALIZAR_MSG = 3000; //Tempo em milissegundos
-    private int ultimaMsg = -1;
+    private final int TEMPO_ATUALIZAR_MSG = 1000; //Tempo em milissegundos
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,20 +35,6 @@ public class SalaBatePapoActivity extends AppCompatActivity {
         configListaMsgs();
 
         txtMensagem = (EditText) findViewById(R.id.txtMensagem);
-//        addMsgs();
-    }
-
-    private void addMsgs() {
-        for (int i = 0; i < 10; i++) {
-            if (i % 3 == 0) {
-                listaMensagem.add(new Mensagem(usuario.getNome(),
-                        "Eae rapazeada"));
-            }
-            else {
-                listaMensagem.add(new Mensagem("Sr. Bugorin", "I s2 Ruby"));
-            }
-        }
-        rvListaMensagem.getAdapter().notifyDataSetChanged();
     }
 
     @Override

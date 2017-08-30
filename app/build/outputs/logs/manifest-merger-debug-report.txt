@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml:3:5-41
 		INJECTED from C:\Users\Beto\AndroidStudioProjects\MinicursoAndroid\app\src\main\AndroidManifest.xml

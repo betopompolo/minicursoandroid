@@ -14,11 +14,11 @@ import retrofit2.http.POST;
  */
 
 public interface MensagemService {
-    @GET("mensagens")
+    @GET("mensagem")
     public Call<List<Mensagem>> getMensagens();
 
     @Headers("Content-Type:application/x-www-form-urlencoded")
     @FormUrlEncoded
-    @POST("mensagens")
-    public Call<Void> enviarMensagem(@Field("user") String usuario, @Field("menssage") String mensagem);
+    @POST("mensagem")
+    public Call<Void> enviarMensagem(@Field("nome") String usuario, @Field("mensagem") String mensagem);
 }
